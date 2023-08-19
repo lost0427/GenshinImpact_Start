@@ -1,0 +1,209 @@
+.desktop {
+  width: 100%;
+  height: 800px; /* 800px */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #191923;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0;
+  position: absolute;
+  border-radius: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px
+}
+
+.hero {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 50px 100px 50px;
+  background-color: #191923;
+  overflow: hidden;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 50;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.rows {
+  flex-shrink: 0;
+  width: 983px;
+  height: 680px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 10;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.headers {
+  flex-shrink: 0;
+  width: 100%;
+  height: 70px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 61px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  margin: 0px 0px 0px 0px
+}
+
+.columns {
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 50px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: min-content;
+    justify-content: center;
+    max-width: 1000px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    --framer-aspect-ratio-supported: auto;
+    font-size: 12px;
+    font-family: sans-serif;
+
+}
+
+.button {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  height: min-content; /* 44px */
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+  background-color: #0099ff;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 8;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+}
+
+.button2 {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  height: min-content; /* 44px */
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  background-color: #0099ff;
+  position: relative;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 8;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+}
+
+.frame {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    --framer-link-text-color: #0099ff;
+    --framer-link-text-decoration: underline;
+    --framer-paragraph-spacing: 0px;
+    flex: none;
+    height: 154px;
+    position: relative;
+    white-space: pre-wrap;
+    width: 100%;
+    word-break: break-word;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    -webkit-font-smoothing: inherit;
+    --framer-aspect-ratio-supported: auto;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.rows2 {
+    flex: none;
+    width: 100%;
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+    height: min-content;
+    justify-content: center;
+    max-width: 1000px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 1px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: inherit;
+    --framer-aspect-ratio-supported: auto;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.frame2 {
+    flex: none;
+    height: var(--framer-aspect-ratio-supported, 500px);
+    width: 500px;
+    aspect-ratio: 1 / 1;
+    flex: 1 0 0px;
+    height: var(--framer-aspect-ratio-supported, 487px);
+    position: relative;
+    width: 1px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: inherit;
+    display: block;
+    --framer-aspect-ratio-supported: auto;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.image {
+    padding: 0px 0px 0px 50px;
+}
