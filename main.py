@@ -64,5 +64,5 @@ while True:
             break
 
         except:
-            print('擦那，出错了')
+            print('出错了')
             break
