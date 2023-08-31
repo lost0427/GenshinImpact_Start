@@ -207,3 +207,21 @@
 .image {
     padding: 0px 0px 0px 50px;
 }
+
+
+.rows2 {
+  flex-shrink: 0;
+  width: 983px;
+  height: 680px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 10;
+  border-radius: 0px 0px 0px 0px;
+}
